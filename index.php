@@ -4,5 +4,5 @@
 	print("Hello");
 
 	//echo is a statememt -generally used
-	//print is a statement
+	//print is a function
 ?>
