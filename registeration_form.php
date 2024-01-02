@@ -1,7 +1,7 @@
 <html>
 	<body>
 		<table>
-			<form action="dashboard">
+			<form action="dashboard.php">
 			<tr>
 				<td>First Name</td>
 				<td><input type="text" name="fnm" /></td>
