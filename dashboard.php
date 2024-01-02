@@ -1,11 +1,14 @@
 <?php
 	$fname = $_REQUEST['fnm'];
-	$lname = $_REQUEST['fnm'];
-	$class = $_REQUEST['lnm'];
-	$division = $_REQUEST['class'];
+	$lname = $_REQUEST['lnm'];
+	$class = $_REQUEST['class'];
+	$division = $_REQUEST['div'];
 	$city = $_REQUEST['city'];
 	$address = $_REQUEST['add'];
 	$mobno = $_REQUEST['mno'];
+	$pinc = $_REQUEST['pin'];
+	$st = $_REQUEST['state'];
+	$country = $_REQUEST['country'];
 	echo"<table>
 			<tr>
 				<td>First Name</td>
