@@ -17,20 +17,9 @@ while ($fetch = mysqli_fetch_row($exe)) {
 echo "</select>
 <br><br>";
 
-// Retrieving the name based on the selected ID
-if (isset($_POST['id'])) {
-    $selected_id = $_POST['id'];
-    $q2 = "SELECT name FROM student WHERE id='$selected_id'";
-    $exe2 = mysqli_query($connect, $q2);
-    $fetch = mysqli_fetch_row($exe2);
-    $name = $fetch[0];
-} else {
-    $name = ''; // Set default value if no ID is selected yet
-}
-
 echo "      
 <label for='name'> Update Your Name </label>
-<input type='text' name='name' value='".htmlspecialchars($name). "'/>
+<input type='text' name='name'/>
 <!-- Corrected value attribute -->
 <br><br>
 <input type='submit' />
